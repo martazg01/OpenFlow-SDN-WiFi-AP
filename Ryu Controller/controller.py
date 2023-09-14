@@ -27,7 +27,7 @@ class MacAddress(Base):
     mac = Column(String, primary_key=True)
 
 # Create engine for SQLite database
-engine = create_engine('sqlite:////home/leandro/finalproject/whitelist.db')
+engine = create_engine('sqlite:////home/marta/finalproject/whitelist.db')
 Session = sessionmaker(bind=engine)
 session = Session()
 
