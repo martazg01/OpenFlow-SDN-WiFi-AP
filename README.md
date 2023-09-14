@@ -26,7 +26,7 @@ sudo ./openvswitch-3.0.0/script
 Navigate to the Flask directory of the project:
 
 ```bash
-cd /home/leandro/finalproject/Flask
+cd /home/marta/finalproject/Flask
 ```
 
 Export your Flask application:
