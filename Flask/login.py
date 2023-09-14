@@ -10,7 +10,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Set up SQLite database with SQLAlchemy
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////home/leandro/finalproject/whitelist.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////home/marta/finalproject/whitelist.db'
 app.config['SECRET_KEY'] = 'tele4642'  # Add a secret key for flash messages
 db = SQLAlchemy(app)
 
